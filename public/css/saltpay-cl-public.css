@@ -1,0 +1,87 @@
+.entry-summary .loan-advert-shortcode{
+    display: flex;
+    width: 100%;
+}
+.loans>fieldset{
+    padding: 20px;
+}
+.saltpay-loans{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.saltpay-loans .loan-choice{
+    position: relative;
+    padding-right: 40px;
+    margin-top: 20px;
+}
+.saltpay-loans .loan-choice:first-child{
+    margin-top: 0;
+}
+.saltpay-loans .loan-info-toggle{
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: none;
+    padding: 0;
+    margin-left: 20px;
+    height: 25px;
+    width: 25px;
+    background: #333;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: all .5s ease-in-out;
+}
+
+.saltpay-loans .loan-info-toggle::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 8px;
+    width: 8px;
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    transform: translate(-50%, calc(-50% - 2px)) rotate(45deg);+
+}
+.saltpay-loans .loan-info-toggle.toggled {
+    transform: rotate(180deg);
+}
+.saltpay-loans .loan-info-toggle .btn-text{
+    display: none;
+}
+.saltpay-loans .loan-info{
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: all .5s ease-in-out;
+}
+.saltpay-loans .loan-info.toggled {
+    max-height: 400px;
+    opacity: 1;
+}
+.saltpay-loans .loan img{
+    display: block;
+    max-width: 80%;
+    height: auto;
+    margin-top: 15px;
+}
+
+.saltpay-loan-advert{
+
+}
+.saltpay-loan-advert{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.saltpay-loan-advert .loan-advert-info{
+    color: #fff;
+    background-color: #2542a1;
+    padding: 10px 15px;
+}
+
+/*wc checkout block styles*/
+.saltpay-cl-payment .saltpay-cl-logoUrl img{
+    max-width: 200px;
+}

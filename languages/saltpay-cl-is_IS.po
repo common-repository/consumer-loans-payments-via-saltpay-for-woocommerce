@@ -1,0 +1,301 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-05-24 18:08+0300\n"
+"PO-Revision-Date: 2022-05-24 18:18+0200\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Eazy Po 1.0.0.0\n"
+
+#: includes/class-saltpay-cl-api.php:173
+#, php-format
+msgid "get_loans for amount %s from transient: %s"
+msgstr ""
+
+#: includes/class-saltpay-cl-api.php:176
+#, php-format
+msgid "get_loans for amount %s"
+msgstr ""
+
+#: includes/class-saltpay-cl-api.php:203
+#, php-format
+msgid "fetch_loans, error: %s"
+msgstr ""
+
+#: includes/class-saltpay-cl-api.php:206
+#, php-format
+msgid "fetch_loans for amount %s, api_response: %s"
+msgstr ""
+
+#: includes/class-saltpay-cl-api.php:250
+#, php-format
+msgid "generate_token, params: %s"
+msgstr ""
+
+#: includes/class-saltpay-cl-api.php:262
+#, php-format
+msgid "generate_token, error: %s"
+msgstr ""
+
+#: includes/class-saltpay-cl-api.php:266
+#, php-format
+msgid "generate_token, api_response: %s"
+msgstr ""
+
+#: includes/class-saltpay-cl-api.php:301
+#, php-format
+msgid "validate_loan, params: %s"
+msgstr ""
+
+#: includes/class-saltpay-cl-api.php:313
+#, php-format
+msgid "validate_loan, error: %s"
+msgstr ""
+
+#: includes/class-saltpay-cl-api.php:315
+#, php-format
+msgid "validate_loan, api_response: %s"
+msgstr ""
+
+#: includes/class-saltpay-cl-api.php:332
+#, php-format
+msgid "get_loan_advert for amount %s from transient: %s"
+msgstr ""
+
+#: includes/class-saltpay-cl-api.php:336
+#, php-format
+msgid "get_loan_advert for amount %s"
+msgstr ""
+
+#: includes/class-saltpay-cl-api.php:371
+#, php-format
+msgid "fetch_loan_advert, error: %s"
+msgstr ""
+
+#: includes/class-saltpay-cl-api.php:377
+#, php-format
+msgid "fetch_loan_advert, api_response: %s"
+msgstr ""
+
+#: includes/class-saltpay-cl-gateway.php:63
+#: includes/class-saltpay-cl-gateway.php:80
+msgid "SaltPay - Consumer loans"
+msgstr "SaltPay - Raðgreiðslur"
+
+#: includes/class-saltpay-cl-gateway.php:81
+msgid ""
+"Allow the customer to choose from different types of SaltPay loans after "
+"which\n"
+"the customer will be redirected to the SaltPay consumer loan site for the "
+"loan process."
+msgstr ""
+
+#: includes/class-saltpay-cl-gateway.php:96
+msgid "Enable/Disable"
+msgstr ""
+
+#: includes/class-saltpay-cl-gateway.php:97
+msgid "Enable SaltPay - Consumer loans"
+msgstr ""
+
+#: includes/class-saltpay-cl-gateway.php:103
+msgid "Title"
+msgstr ""
+
+#: includes/class-saltpay-cl-gateway.php:107
+msgid "Description"
+msgstr ""
+
+#: includes/class-saltpay-cl-gateway.php:110
+msgid "This controls the description which the user sees during checkout."
+msgstr ""
+
+#: includes/class-saltpay-cl-gateway.php:111
+msgid "Pay with a consumer loan from SalPay"
+msgstr "Greiða með raðgreiðslum frá SaltPay"
+
+#: includes/class-saltpay-cl-gateway.php:115
+msgid "Merchant number"
+msgstr ""
+
+#: includes/class-saltpay-cl-gateway.php:117
+msgid "Merchant number is supplied by SaltPay."
+msgstr ""
+
+#: includes/class-saltpay-cl-gateway.php:121
+msgid "Username"
+msgstr ""
+
+#: includes/class-saltpay-cl-gateway.php:123
+msgid "Username is supplied by SaltPay."
+msgstr ""
+
+#: includes/class-saltpay-cl-gateway.php:127
+msgid "Password"
+msgstr ""
+
+#: includes/class-saltpay-cl-gateway.php:129
+msgid "Password is supplied by SaltPay."
+msgstr ""
+
+#: includes/class-saltpay-cl-gateway.php:133
+msgid "Test Mode"
+msgstr ""
+
+#: includes/class-saltpay-cl-gateway.php:134
+msgid "Enable Test Mode"
+msgstr ""
+
+#: includes/class-saltpay-cl-gateway.php:136
+msgid "Place the payment gateway in development mode."
+msgstr ""
+
+#: includes/class-saltpay-cl-gateway.php:141
+msgid "Loan advertisement settings"
+msgstr ""
+
+#: includes/class-saltpay-cl-gateway.php:144
+msgid "Minimum advert price"
+msgstr ""
+
+#: includes/class-saltpay-cl-gateway.php:145
+msgid "Minimum price to show loan advert"
+msgstr ""
+
+#: includes/class-saltpay-cl-gateway.php:148
+msgid "Default value is 54000"
+msgstr ""
+
+#: includes/class-saltpay-cl-gateway.php:151
+msgid "Loan advertisement type id"
+msgstr ""
+
+#: includes/class-saltpay-cl-gateway.php:155
+msgid "Default value is 23"
+msgstr ""
+
+#: includes/class-saltpay-cl-gateway.php:158
+msgid "Loan advertisement number of payments"
+msgstr ""
+
+#: includes/class-saltpay-cl-gateway.php:162
+msgid "Default value is 6"
+msgstr ""
+
+#: includes/class-saltpay-cl-gateway.php:165
+msgid "Enable/Disable advertisement in product list"
+msgstr ""
+
+#: includes/class-saltpay-cl-gateway.php:166
+msgid "Enable advertisement at product overview"
+msgstr ""
+
+#: includes/class-saltpay-cl-gateway.php:172
+msgid "Enable/Disable advertisement in single product overview"
+msgstr ""
+
+#: includes/class-saltpay-cl-gateway.php:173
+msgid "Enable advertisement in single product overview"
+msgstr ""
+
+#: includes/class-saltpay-cl-gateway.php:181
+#, php-format
+msgid "The %s shortcode is also available and can be used in the products"
+msgstr ""
+
+#: includes/class-saltpay-cl-gateway.php:185
+msgid "Advanced features"
+msgstr ""
+
+#: includes/class-saltpay-cl-gateway.php:189
+msgid "Requests timeout"
+msgstr ""
+
+#: includes/class-saltpay-cl-gateway.php:193
+msgid "Default value is 20"
+msgstr ""
+
+#: includes/class-saltpay-cl-gateway.php:196
+msgid "Loan advertisement requests timeout"
+msgstr ""
+
+#: includes/class-saltpay-cl-gateway.php:200
+msgid "Default value is 10"
+msgstr ""
+
+#: includes/class-saltpay-cl-gateway.php:203
+msgid "Time until cache expires in minutes"
+msgstr ""
+
+#: includes/class-saltpay-cl-gateway.php:207
+msgid "Default value is 10 minutes"
+msgstr ""
+
+#: includes/class-saltpay-cl-gateway.php:210
+msgid "Debug"
+msgstr ""
+
+#: includes/class-saltpay-cl-gateway.php:211
+msgid "Enable Debug Mode"
+msgstr ""
+
+#: includes/class-saltpay-cl-gateway.php:261
+msgid "Gateway Disabled"
+msgstr ""
+
+#: includes/class-saltpay-cl-gateway.php:262
+msgid ""
+"Current Store currency is not valid for SaltPay - Consumer loans gateway. "
+"Must be in ISK"
+msgstr ""
+
+#: includes/class-saltpay-cl-gateway.php:321
+#, php-format
+msgid "get_portal_url, %s"
+msgstr ""
+
+#: includes/class-saltpay-cl-gateway.php:322
+msgid "Сustomer redirected to SaltPay consumer loan website"
+msgstr ""
+
+#: includes/class-saltpay-cl-gateway.php:329
+msgid "Token generation error"
+msgstr ""
+
+#: includes/class-saltpay-cl-gateway.php:376
+#, php-format
+msgid "Contract number: %s"
+msgstr ""
+
+#: includes/class-saltpay-cl-gateway.php:380
+#, php-format
+msgid "Authorization number: %s"
+msgstr ""
+
+#: includes/class-saltpay-cl-shortcodes.php:133
+#, php-format
+msgid "%s %s for %d months"
+msgstr "%s %s í %d mánuði"
+
+#: public/class-saltpay-cl-public.php:92
+msgid "Please select a <strong>Consumer loan</strong>"
+msgstr ""
+
+#: public/class-saltpay-cl-public.php:95
+msgid "No available loans found"
+msgstr ""
+
+#: templates/loans.php:3
+msgid "Available Consumer Loans"
+msgstr "Raðgreiðsluleiðir í boði"
